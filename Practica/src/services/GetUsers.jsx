@@ -1,4 +1,4 @@
-async function getUsers() {
+async function GetUsers() {
     try {
         const response = await fetch('http://localhost:3001/users', {
             method: 'GET',
@@ -19,4 +19,4 @@ async function getUsers() {
     }
 }
 
-export default  getUsers ;
+export default  GetUsers ;
