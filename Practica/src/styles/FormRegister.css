@@ -54,9 +54,9 @@ button {
 
 /* Personaliza el estilo del popup */
 .my-popup {
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255, 0.9);
     border-radius: 30px; /* Ajusta el radio de las esquinas */
-    width: 400px;
+    width: 350px;
     height: auto;
 
 }
@@ -74,7 +74,7 @@ button {
 }
 /* Cambiar el color del botón cuando se coloca el cursor encima */
 .my-confirm-button:hover {
-    background-color: #a7a7a7cc;
+    background-color: rgba(167, 167, 167, 0.8);
     border: none;
     outline: none;
 }
