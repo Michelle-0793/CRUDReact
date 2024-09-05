@@ -1,8 +1,8 @@
-async function PostUsers(username, email, password) {
+// Servicio para el login del usuario
+async function PostLogin(email, password) {
     try {
      
         const userData = { 
-            username,
             email, 
             password
         };
@@ -25,4 +25,4 @@ async function PostUsers(username, email, password) {
     }
 }
 
-export default PostUsers;
+export default PostLogin;

@@ -1,5 +1,11 @@
 //Componente para el formulario de incio de sesión
-import React from "react";
+import React, { useState } from "react";
+import Swal from "sweetalert2";
+import { useNavigate } from "react-router-dom";
+import PostLogin from "../services/PostLogin"; // Servicio de login
+
+
+
 
 
 function FormLogin() {
